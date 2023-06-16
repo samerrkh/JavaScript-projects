@@ -1,0 +1,47 @@
+table {
+
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid black;
+    width: 130px;
+    height: 90px;
+    text-align: center;
+    background-color: green;
+    visibility: visible;
+}
+
+h1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.card {
+    visibility: visible;
+    background-color: rgb(26, 172, 45);
+    width: 130px;
+    height: 90px;
+
+}
+
+#new-game-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+
+#steps-counter,
+#pairs-counter {
+    margin: 20px;
+}
+
+h3 {
+    display: inline;
+    float: right;
+    margin-right: 100px;
+}

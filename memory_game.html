@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="memory_game.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./memory_game.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+</head>
+
+<body>
+    <h1>Memory Game</h1>
+    <button id="new-game-button">New Game</button>
+    <h3>Moves: <span id="steps-counter">0</span></h>
+        <h3>Matches: <span id="pairs-counter">0</span></h3>
+        <table id="game-board">
+            <tr>
+                <td> <button class="card" data-x="0" data-y="0" title="Click"></button> </td>
+                <td> <button class="card" data-x="0" data-y="1" title="Click"></button> </td>
+                <td> <button class="card" data-x="0" data-y="2" title="Click"></button> </td>
+                <td> <button class="card" data-x="0" data-y="3" title="Click"></button> </td>
+                <td> <button class="card" data-x="0" data-y="4" title="Click"></button> </td>
+            </tr>
+            <tr>
+                <td> <button class="card" data-x="1" data-y="0" title="Click"></button> </td>
+                <td> <button class="card" data-x="1" data-y="1" title="Click"></button> </td>
+                <td> <button class="card" data-x="1" data-y="2" title="Click"></button> </td>
+                <td> <button class="card" data-x="1" data-y="3" title="Click"></button> </td>
+                <td> <button class="card" data-x="1" data-y="4" title="Click"></button> </td>
+            </tr>
+            <tr>
+                <td> <button class="card" data-x="2" data-y="0" title="Click"></button> </td>
+                <td> <button class="card" data-x="2" data-y="1" title="Click"></button> </td>
+                <td> <button class="card" data-x="2" data-y="2" title="Click"></button> </td>
+                <td> <button class="card" data-x="2" data-y="3" title="Click"></button> </td>
+                <td> <button class="card" data-x="2" data-y="4" title="Click"></button> </td>
+            </tr>
+            <tr>
+                <td> <button class="card" data-x="3" data-y="0" title="Click"></button> </td>
+                <td> <button class="card" data-x="3" data-y="1" title="Click"></button> </td>
+                <td> <button class="card" data-x="3" data-y="2" title="Click"></button> </td>
+                <td> <button class="card" data-x="3" data-y="3" title="Click"></button> </td>
+                <td> <button class="card" data-x="3" data-y="4" title="Click"></button> </td>
+            </tr>
+            <!-- <tr>
+                <td> <button class="card" data-x="4" data-y="0">Click</button> </td>
+                <td> <button class="card" data-x="4" data-y="1">Click</button> </td>
+                <td> <button class="card" data-x="4" data-y="2">Click</button> </td>
+                <td> <button class="card" data-x="4" data-y="3">Click</button> </td>
+                <td> <button class="card" data-x="4" data-y="4">Click</button> </td>
+            </tr>
+            <tr>
+                <td> <button class="card" data-x="5" data-y="0">Click</button> </td>
+                <td> <button class="card" data-x="5" data-y="1">Click</button> </td>
+                <td> <button class="card" data-x="5" data-y="2">Click</button> </td>
+                <td> <button class="card" data-x="5" data-y="3">Click</button> </td>
+                <td> <button class="card" data-x="5" data-y="4">Click</button> </td>
+            </tr> -->
+        </table>
+</body>
+
+</html>
